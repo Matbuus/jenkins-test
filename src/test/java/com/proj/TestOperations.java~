@@ -19,7 +19,7 @@ public class TestOperations {
 	
 	@Test
 	public void testMul() {
-		Assert.assertEquals(Operations.mul(1.5F, 2F), 2F, 0);
+		Assert.assertEquals(Operations.mul(1.5F, 2F), 3F, 0);
 	}
 	
 	@Test
